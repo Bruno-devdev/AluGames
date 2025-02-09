@@ -6,7 +6,7 @@ function alterarStatus(id) {
 
 
     if (imagem.classList.contains("dashboard__item__img--rented")) {
-        let devolve = prompt ('Você deseja realmente devolver? digite 1 para sim ou 2 para não');
+        let devolve = prompt ('Você realmente deseja devolver? digite 1 para sim ou 2 para não');
         if (devolve == 1) {       
         imagem.classList.remove("dashboard__item__img--rented"); 
         botao.classList.remove("dashboard__item__button--return"); 
