@@ -1,5 +1,5 @@
 function alterarStatus(id) {
-    let botaoClicado = document.getElementById(`game-${id}`);//puxando o id com o onclick
+    let botaoClicado = document.getElementById(`game-${id}`);//puxando o id que tem o onclick
     let imagem = botaoClicado.querySelector('.dashboard__item__img'); //
     let botao = botaoClicado.querySelector('.dashboard__item__button');
 
